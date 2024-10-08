@@ -165,7 +165,6 @@ section.browser_range_cards{
 
 /* Section Product Display */
 section.products-sec{
-    height: 500px;
     width: 100%;
     padding: 10px;
     margin: 50px 0;
@@ -233,7 +232,7 @@ section.products-sec{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     position: absolute;
     top: 55%;
     left: 50%;
@@ -291,6 +290,205 @@ section.products-sec{
     background: none;
     border: 1px solid #B88E2F;
     color: #B88E2F;
+    transition: 350ms ease;
+}
+.btn:hover{
+    background-color: #B88E2F;
+    color: var(--secondary-color);
 }
 /* Section Product Display */
+
+/* Section Slider Start */
+section.Slider{
+    background-color: #FCF8F3;
+    width: 100%;
+}
+.main_news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.news_content{
+    width: 40%;
+    padding: 10px;
+}
+.news_content h2{
+    font-size: 30px;
+    width: 80%;
+    font-weight: 700
+}
+.btn.news{
+    width: 50%;
+}
+.slider_img{
+    height: 400px;
+    width: 300px;
+}
+.slider_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: 100%;
+}
+.slider{
+    height: 400px;
+    width: 30%;
+}
+.image{
+    height: 70%;
+    width: 65%;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.swiper-pagination-bullet {
+    background-color: gray;
+    width: 12px;
+    height: 12px;
+    opacity: 0.5;
+}
+
+.swiper-pagination-bullet {
+    background-color: gray;
+    width: 12px;
+    height: 12px;
+    opacity: 0.5;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ffffff;
+    background-color: #fff !important;
+    border-radius: 100% !important;
+    font-size: 16px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px !important;
+    color: orange;
+    font-weight: 800;
+}
+/* Section Slider End */
+
+/* Section Footer Banner Start */
+section.footer-banner{
+    width: 100%;
+    margin: 50px 0;
+    background-color: var(--secondary-color);
+}
+.banner{
+    width: 100%;
+}
+.banner h6 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.banner h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.banner-img{
+    height: 400px;
+    width: 100%;
+}
+.banner-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+/* Section Footer Banner End */
+
+section.footer{
+    background-color: var(--secondary-color);
+    width: 100%;
+    border-top: 1px solid #9F9F9F;
+}
+.main-footer{
+    width: 100%;
+    padding: 10px;
+    padding: 50px 10px;
+}
+.footer-box-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-box{
+    width: 24%;
+    padding: 10px;
+}
+.footer-box ul{
+    margin-top: 50px;
+    padding: 0;
+}
+.footer-box ul li{
+    color: #9F9F9F;
+}
+.footer-box.Links{
+    width: 180px;
+}
+.footer-box.Links .footer-logo h4{
+    color: #9F9F9F;
+}
+.footer-box.Links ul li{
+    margin: 20px 0;
+}
+.footer-box.Links ul li a{
+    color: #000000 !important;
+    font-weight: 600;
+}
+.footer-box.subscribe .footer-logo h4{
+    color: #9F9F9F;
+}
+.footer-box.subscribe{
+    padding: 10px !important;
+    width: 33%;
+}
+.footer-box.subscribe .input-wrapper{
+    margin-top: 50px;
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.input-wrapper input{
+    width: 90% !important;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000000;
+    padding: 10px;
+    height: 40px;
+}
+.input-wrapper .subs{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000000;
+    background: none;
+    color: var(--text-color);
+    font-weight: 700;
+    height: 40px;
+}
+
+
+.footerNav{
+    background-color: var(--secondary-color);
+    width: 100%;
+}
+.footer-nav{
+    border-top: 1px solid #9F9F9F;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
 
